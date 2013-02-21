@@ -1,0 +1,57 @@
+.achat-window {
+    width: 400px;
+    height: 240px;
+    position: absolute;
+    top: 180px;
+    right: -380px;
+    background: #fff;
+    text-indent: -9999;
+    border: 2px solid #B0E0E6;
+}
+
+.achat-window .left {
+    width: 20px;
+    height: 240px;
+    background: #eee;
+    float:left;
+    border-right: 2px solid #B0E0E6;
+}
+
+.achat-window .main {
+    width: 340px;
+    height: 240px;
+    padding-right: 4px;
+    float: left;
+}
+
+.achat-window .messages {
+    height: 240px;
+
+}
+
+#messages-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#messages-list li {
+    padding: 0px;
+    margin: 0px;
+    font-family: Calibri, Verdana, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+.textarea-msg {
+    width: 270px;
+    height: 30px;
+    float: left;
+    padding-right: 4px;
+}
+
+.submit-msg {
+    height: 36px;
+    width: 60px;
+    padding: 6px;
+}
+
